@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta name="theme-color" content="#fafafa">
+
+
+  <!-- <link rel="apple-touch-icon" href="icon.png"> -->
+  <!-- Place favicon.ico in the root directory -->
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="style.css">
+
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container clearfix">
+      <div class="header-logo left">
+        <a href="#" class="logo">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <div class="header-menu right text-end">
+        <nav>
+          <ul>
+            <li><a href="#">menu-1</a></li>
+            <li><a href="#">menu-2</a></li>
+            <li><a href="#">menu-3</a></li>
+            <li><a href="#">menu-4</a></li>
+            <li><a href="#">menu-5</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="slider-section">
+      <div class="wraper-div">
+
+        <input type="radio" name="banner-radio" id="h-btn1">
+        <input type="radio" name="banner-radio" id="h-btn2">
+        <input type="radio" name="banner-radio" id="h-btn3">
+        <input type="radio" name="banner-radio" id="h-btn4">
+        <input type="radio" name="banner-radio" id="h-btn5">
+
+        <div class="slider-image slide-1">
+          <img src="img/4.jpg" alt="">
+          <div class="flot-text">
+            <h1>Hello!</h1>
+            <p>welcome to this page</p>
+          </div>
+        </div>
+        <div class="slider-image">
+          <img src="img/1.jpg" alt="">
+          <div class="flot-text" style="color: yellow; background: rgba(0, 0, 255, 0.336);">
+            <h1>Lorem, ipsum.</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="slider-image">
+          <img src="img/2.jpg" alt="">
+          <div class="flot-text" style="background: rgba(255, 255, 255, 0.384); color:blue;">
+            <h1>Hello!</h1>
+            <p>welcome to this page</p>
+          </div>
+        </div>
+        <div class="slider-image">
+          <img src="img/3.jpg" alt="">
+          <div class="flot-text" style="color: #fff;background: linear-gradient(to right, rgba(230, 0, 115, 0.418),rgba(0, 115, 230, 0.411));">
+            <h1>Hello!</h1>
+            <p>welcome to this page</p>
+          </div>
+        </div>
+        <div class="slider-image">
+          <img src="img/5.jpg" alt="">
+          <div class="flot-text">
+            <h1>Hello!</h1>
+            <p>welcome to this page</p>
+          </div>
+        </div>
+
+        <div class="nav-bar">
+          <label for="h-btn1" class="slid-btn"></label>
+          <label for="h-btn2" class="slid-btn"></label>
+          <label for="h-btn3" class="slid-btn"></label>
+          <label for="h-btn4" class="slid-btn"></label>
+          <label for="h-btn5" class="slid-btn"></label>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="container">
+      <h1 class="text-center">Html 5 tags Practic</h1>
+      <h3>An audio file:</h3>
+      <audio src="audio/bensound-jazzyfrenchy.mp3" type="audio/mp3" controls></audio>
+      <h3>Details tag:</h3>
+      <details>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, reprehenderit recusandae! Cum, quis. Iste dignissimos et porro distinctio ipsum earum.</p>
+      </details>
+      <h3>Data tag:</h3>
+      <nav>
+        <ul>
+          <li>
+            <data value="20">Alu</data>
+          </li>
+          <li>
+            <data value="30">Potol</data>
+          </li>
+          <li>
+            <data value="50">Begun</data>
+          </li>
+          <li>
+            <data value="100">Tea</data>
+          </li>
+          <li>
+            <data value="10000">Coffee</data>
+          </li>
+        </ul>
+      </nav>
+      <h3>Data List</h3>
+      <label for="service">Our Services : </label>
+      <input type="text" list="service" id="service">
+      <datalist id="service">
+        <option value="HTML5">
+        <option value="CSS3">
+        <option value="BOOTSTRAP">
+        <option value="JAVASCRIPT">
+        <option value="WORDPRESS">
+      </datalist>
+      <h3>Embed tag : </h3>
+      <embed width="640" height="360" src="https://www.youtube.com/embed/htqXL94Rza4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+      <h3>FIgure Tag : </h3>
+      <figure>
+        <img src="https://i.gadgets360cdn.com/large/spacex_reters_full_1563256346799.JPG?downsize=950:*" alt="">
+        <figcaption>SpaceX Crew Dragon Demo-2: First Commercial Space Taxi a Pit Stop on Musk's Mars Quest</figcaption>
+      </figure>
+      <h3>Mark Tag :</h3>
+      <mark>Represents text highlighted for reference purposes.</mark>
+      <h3>Meter Tag :</h3>
+      <h1>Total Score : <meter min="0" max="10" value="6"></meter></h1>
+      <h1>Downladed : <meter min="0" max="100" value="90"></meter></h1>
+      <h1>Price : <meter low="40" high="80" value="60"></meter></h1>
+
+      <h3>Progress Tag</h3>
+      <h1>Download compleat : <progress max="100" min="0" value="60"></progress> 60%</h1>
+      
+    </div>
+  </section>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
